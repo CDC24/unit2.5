@@ -6,12 +6,17 @@ from ggame import *
 #the asterisk imports the whole thing
 
 
-red = Color(0xFF0000,1)
+red = Color(0xFF0000,1) # (RGB code, opacity)
+green = Color(0x00FF00,1)
+blue = Color(0x0000FF,1)
 black = Color(0X00000000,1)
 
 blackOutline = LineStyle(1,black)
 redRectangle = RectangleAsset(200,300, blackOutline, red) #(width,height,outline,fill)
+blueCircle = CircleAsset(200,blackOutline, blue) #(radius,outline,fill)
+
 
 Sprite(redRectangle)
+Sprite(blueCircle)
 
 App().run()
