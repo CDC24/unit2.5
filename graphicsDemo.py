@@ -17,6 +17,6 @@ blueCircle = CircleAsset(100,blackOutline, blue) #(radius,outline,fill)
 
 
 Sprite(redRectangle)
-Sprite(blueCircle)
+Sprite(blueCircle,(200,100))#(blue is new coordinates, 200 TO THE RIGHT, 100 DOWN)
 
 App().run()
