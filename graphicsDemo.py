@@ -16,14 +16,14 @@ redRectangle = RectangleAsset(100,300, blackOutline, red) #(width,height,outline
 blueCircle = CircleAsset(100,blackOutline, blue) #(radius,outline,fill)
 greenEllipse = EllipseAsset(150,50,blackOutline, green) #(width,height,outline,fill)
 blackLine = LineAsset(300,400,blackOutline) #(x endpoint,y endpoint,>>starting from top left!!<< line style)
-redTriangle = PolygonAsset([(30,40),(500,200),(40,100)],blackOutline,red)#([vertex coordintates],etc)
+redTriangle = PolygonAsset([(30,40),(500,200),(40,100)],blackOutline,red)#([relative vertex coordintates],etc)
 
 
 Sprite(redRectangle)
 Sprite(blueCircle,(200,100))#(blue is new coordinates, 200 TO THE RIGHT, 100 DOWN)
 Sprite(greenEllipse,(50,300))
 Sprite(blackLine)
-Sprite(redTriangle)
+Sprite(redTriangle,(100,200))
 
 
 App().run()
