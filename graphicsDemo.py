@@ -23,5 +23,7 @@ Sprite(redRectangle)
 Sprite(blueCircle,(200,100))#(blue is new coordinates, 200 TO THE RIGHT, 100 DOWN)
 Sprite(greenEllipse,(50,300))
 Sprite(blackLine)
+Sprite(redTriangle)
+
 
 App().run()
