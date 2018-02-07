@@ -15,7 +15,7 @@ blackOutline = LineStyle(1,black)
 redRectangle = RectangleAsset(100,300, blackOutline, red) #(width,height,outline,fill)
 blueCircle = CircleAsset(100,blackOutline, blue) #(radius,outline,fill)
 greenEllipse = EllipseAsset(150,50,blackOutline, green) #(width,height,outline,fill)
-blackLine = LineAsset(50,160,blackOutline) #(x endpoint,y endpoint,>>starting from top left!!<< line style)
+blackLine = LineAsset(300,400,blackOutline) #(x endpoint,y endpoint,>>starting from top left!!<< line style)
 
 
 Sprite(redRectangle)
