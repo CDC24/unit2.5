@@ -14,9 +14,11 @@ black = Color(0X00000000,1)
 blackOutline = LineStyle(1,black)
 redRectangle = RectangleAsset(100,300, blackOutline, red) #(width,height,outline,fill)
 blueCircle = CircleAsset(100,blackOutline, blue) #(radius,outline,fill)
+greenEllipse = EllipseAsset(150,50,blackOutline, green) #(width,height,outline,fill)
 
 
 Sprite(redRectangle)
 Sprite(blueCircle,(200,100))#(blue is new coordinates, 200 TO THE RIGHT, 100 DOWN)
+Sprite(greenEllipse,(50,300))
 
 App().run()
