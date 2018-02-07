@@ -21,5 +21,6 @@ blackLine = LineAsset(50,160,blackOutline) #(x endpoint,y endpoint,>>starting fr
 Sprite(redRectangle)
 Sprite(blueCircle,(200,100))#(blue is new coordinates, 200 TO THE RIGHT, 100 DOWN)
 Sprite(greenEllipse,(50,300))
+Sprite(blackLine)
 
 App().run()
