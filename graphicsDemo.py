@@ -12,8 +12,8 @@ blue = Color(0x0000FF,1)
 black = Color(0X00000000,1)
 
 blackOutline = LineStyle(1,black)
-redRectangle = RectangleAsset(200,300, blackOutline, red) #(width,height,outline,fill)
-blueCircle = CircleAsset(200,blackOutline, blue) #(radius,outline,fill)
+redRectangle = RectangleAsset(100,300, blackOutline, red) #(width,height,outline,fill)
+blueCircle = CircleAsset(100,blackOutline, blue) #(radius,outline,fill)
 
 
 Sprite(redRectangle)
