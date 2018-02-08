@@ -15,10 +15,10 @@ yellow = Color(0xFFFF00,1)
 blackOutline = LineStyle(1,black)
 redRectangle = RectangleAsset(200,150, blackOutline, red) #(width,height,outline,fill)
 blackTriangle = PolygonAsset([(150,0),(0,150),(300,150)],blackOutline,black)#([relative vertex coordintates],etc)
-yellowRectangle = RectangleAsset(10,10, blackOutline, yellow)
+yellowRectangle = RectangleAsset(50,50, blackOutline, yellow)
 
 Sprite(redRectangle,(150,350))
 Sprite(blackTriangle,(100,200))
-Sprite(yellowRectangle,(160,300))
+Sprite(yellowRectangle,(160,400))
 
 App().run()
