@@ -15,7 +15,7 @@ blackOutline = LineStyle(1,black)
 redRectangle = RectangleAsset(200,150, blackOutline, red) #(width,height,outline,fill)
 blackTriangle = PolygonAsset([(150,0),(0,150),(300,150)],blackOutline,black)#([relative vertex coordintates],etc)
 
-Sprite(redRectangle)
+Sprite(redRectangle,(150,350))
 Sprite(blackTriangle,(100,200))
 
 
