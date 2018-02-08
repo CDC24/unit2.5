@@ -26,7 +26,7 @@ Sprite(blueCircle,(200,100))#(blue is new coordinates, 200 TO THE RIGHT, 100 DOW
 Sprite(greenEllipse,(50,300))
 Sprite(blackLine)
 Sprite(redTriangle,(100,200))
-Sprite(text,(50,400)
+Sprite(text,(50,400))
 
 
 App().run()
