@@ -18,7 +18,7 @@ greenEllipse = EllipseAsset(150,50,blackOutline, green) #(width,height,outline,f
 blackLine = LineAsset(300,400,blackOutline) #(x endpoint,y endpoint,>>starting from top left!!<< line style)
 redTriangle = PolygonAsset([(30,40),(500,200),(40,100)],blackOutline,red)#([relative vertex coordintates],etc)
 
-text = TextAsset("Yeah Boiiiiiiiiiiiiiiiiiiiiiiiii!", fill=blue, style="bold 45 pt Times")   #the stuff after the initial string is optional
+text = TextAsset("Yeah Boiiiiiiiiiiiiiiiiiiiiiiiii!", fill=blue, style="bold 100 pt Times")   #the stuff after the initial string is optional
 
 
 Sprite(redRectangle)
