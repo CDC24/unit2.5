@@ -26,6 +26,6 @@ Sprite(grossRectangle,(150,350))
 Sprite(blackTriangle,(100,200))
 Sprite(yellowRectangle,(170,400))
 Sprite(yellowRectangle,(290,400))
-Sprite(pinkRectangle(250,350)
+Sprite(pinkRectangle(250,350))
 
 App().run()
