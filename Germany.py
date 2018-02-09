@@ -20,6 +20,6 @@ text = TextAsset ("DEUTSCHLAAAAAAAAAAAAAAAAAAAAAAND!!!", fill=black, style="bold
 Sprite (blackRectangle,(100,100))
 Sprite (redRectangle,(100,200))
 Sprite (yellowRectangle,(100,300))
-sprite (text, (100, 500))
+sprite (text,(100, 500))
 
 App().run()
