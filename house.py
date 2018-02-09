@@ -21,11 +21,13 @@ grossRectangle = RectangleAsset(200,150, blackOutline, gross) #(width,height,out
 blackTriangle = PolygonAsset([(150,0),(0,150),(300,150)],blackOutline,black)#([relative vertex coordintates],etc)
 yellowRectangle = RectangleAsset(40,50, purpleOutline, yellow)
 pinkRectangle = RectangleAsset(30,100,purpleOutline, pink)
+blueCircle = CircleAsset(8, blackOutline, blue)
 
 Sprite(grossRectangle,(150,350))
 Sprite(blackTriangle,(100,200))
 Sprite(yellowRectangle,(170,400))
 Sprite(yellowRectangle,(290,400))
-Sprite(pinkRectangle,(250,350))
+Sprite(pinkRectangle,(235,390))
+Sprite(blueCircle,(260,430))
 
 App().run()
