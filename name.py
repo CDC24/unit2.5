@@ -8,7 +8,7 @@ from ggame import *
 
 RGB = input("Enter a 6-digit RGB color code.")
 
-Color = Color(0x(RGB),1)
+Color = Color(0xRGB,1)
 
 colorRectangle = RectangleAsset(900,900, Color)
 
