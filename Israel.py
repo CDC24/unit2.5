@@ -15,7 +15,7 @@ backRectangle = RectangleAsset(1100,1000, blackline, black)
 whiteRectangle = RectangleAsset(500,300, whiteline, white)
 
 Sprite (backRectangle)
-Sprite (namewrite)
+Sprite (whiteRectangle)
 
 
 
