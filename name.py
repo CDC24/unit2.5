@@ -1,16 +1,18 @@
 #Caleb Callaway
-#2/9/18
+#3/7/18
 #name.py - uses ggame to display name and backround RGB color
 
 
 
 from ggame import *
 
-RGB = input("Enter an RGB color code.")
+RGB = input("Enter a 6-digit RGB color code.")
 
-color = Color(0x(RGB),1)
+Color = Color(0x(RGB),1)
 
-Sprite (Color)
+colorRectangle = RectangleAsset(900,900, Color)
+
+Sprite (colorRectangle)
 
 
 App().run()
