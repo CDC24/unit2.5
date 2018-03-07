@@ -17,6 +17,7 @@ line = LineStyle(1,theColor)
 colorRectangle = RectangleAsset(1100,1000, line, theColor)
 namewrite = TextAsset((name), fill=black, style="bold 400 pt Times")
 
+Sprite (namewrite (400, 500))
 Sprite (colorRectangle)
 
 
