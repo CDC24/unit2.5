@@ -15,10 +15,11 @@ theColor = Color((RGB),1)
 line = LineStyle(1,theColor)
 
 colorRectangle = RectangleAsset(1100,1000, line, theColor)
-namewrite = TextAsset((name), fill=black, style="bold 400 pt Times")
+namewrite = TextAsset((name), fill=black, style='bold 200pt Times')
 
-Sprite (namewrite (400, 500))
 Sprite (colorRectangle)
+Sprite (namewrite)
+
 
 
 App().run()
